@@ -185,7 +185,7 @@ public class Main {
                 int size = Integer.parseInt(fontSize);
                 textArea.setFont(new Font(fontName, Font.PLAIN, size));
             } catch (Exception ex) {
-                JOptionPane.showMessageDialog(frame, "Invalid font size");
+                JOptionPane.showMessageDialog(frame, "Invalid font size.");
             }
         });
 
